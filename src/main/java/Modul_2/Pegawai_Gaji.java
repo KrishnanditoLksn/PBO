@@ -1,97 +1,117 @@
 package Modul_2;
+import Modul_2_Test.Gaji_Pegawai;
+
 import java.util.Scanner;
 public class Pegawai_Gaji {
-
-    int npp;
+    String npp;
     String namaPegawai;
-    int golongan;
-    int  status;
+    int golongan , Child;
+    int status;
     int JuumlahAnak;
     int gajiTotal;
     int gajipokok;
     int tunjanganKeluarga;
 
-    void setNpp(Scanner scan){
-        System.out.print("Input NPP  : ");
-        npp = scan.nextInt();
+    public void setNpp(String npp) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Input Name  : ");
+        namaPegawai = input.next();
+        this.npp = npp;
     }
 
-    void setnamaPegawai(Scanner scan){
-        System.out.print("Input nama : ");
-        namaPegawai = scan.next();
+    public Pegawai_Gaji(String nama, String npp , int golongan , int status , int juumlahAnak) {
+        this.namaPegawai = nama;
+        this.npp = npp;
+        this.status = status;
+        this.golongan = golongan;
+        this.JuumlahAnak = juumlahAnak;
     }
 
-    void setGolongan(Scanner scan){
+    public String getNpp() {
+        return npp;
+    }
+
+
+    public void setGolongan(int golongan) {
+        Scanner input = new Scanner(System.in);
         System.out.print("Input Golongan Anda : ");
-        golongan = scan.nextInt();
+        golongan = input.nextInt();
     }
 
-    int getGolongan(){
-        return  golongan;
+    public int getGolongan() {
+        return golongan;
     }
 
-    void setStatus(Scanner scan){
+    public void setStatus(int status) {
+        Scanner input = new Scanner(System.in);
         System.out.println("1.Menikah");
         System.out.println("2.Belum Menikah");
         System.out.println("==================");
         System.out.print("Input Status : ");
-        status = scan.nextInt();
+        status = input.nextInt();
+        this.status = status;
     }
 
-    int getStatus(){
-        return  status;
+    public int getStatus() {
+        return status;
     }
 
-    void setJuumlahAnak(Scanner scan){
-        if (getStatus() == 1 ){
+    public void setJuumlahAnak(int juumlahAnak) {
+        Scanner input = new Scanner(System.in);
+        if (getStatus() == 1) {
             System.out.println("Jumlah anak : ");
-            JuumlahAnak = scan.nextInt();
-        }
-        else if (getStatus() == 2){
+            Child= input.nextInt();
+        } else if (getStatus() == 2) {
             System.out.println("Anda tidak dapat tunjanngan");
-        }
-        else{
+        } else {
             System.out.println("Invalid");
         }
+        this.JuumlahAnak = juumlahAnak;
     }
 
-    int getJuumlahAnak(){
+    public int getJuumlahAnak() {
         return JuumlahAnak;
     }
 
-    void hitungGajiPokok(){
-        if(getGolongan() == 1){
-            gajipokok =1300000;
+    public void hitungGajiPokok() {
+        if (getGolongan() == 1) {
+            gajipokok = 1300000;
             System.out.println("Gaji Pokok : " + gajipokok);
-        }
-        else if (getGolongan() == 2 ){
+        } else if (getGolongan() == 2) {
             gajipokok = 1750000;
             System.out.println("Gaji Pokok : " + gajipokok);
-        }
-        else if (getGolongan() == 3 ){
+        } else if (getGolongan() == 3) {
             gajipokok = 2000000;
             System.out.println("Gaji Pokok :" + gajipokok);
-        }
-        else {
+        } else {
             System.out.println("Invalid ");
         }
     }
 
-    void hitungTunjanganKeluarga(){
-        if(status ==1 ){
+    public void hitungTunjanganKeluarga() {
+        if (status == 1) {
             tunjanganKeluarga = 300000 + (getJuumlahAnak() * 100000);
             System.out.println("Tunjangan Keluarga : " + tunjanganKeluarga);
-        }
-        else if (status == 2 ){
+        } else if (status == 2) {
             System.out.println("Tidak Dapat Tunjangan Keluarga ");
-        }
-        else{
+        } else {
             System.out.println("Invalid Option");
         }
     }
 
-    void hitungGajiTotal(){
+    public void hitungGajiTotal() {
         gajiTotal = gajipokok + tunjanganKeluarga;
         System.out.println(gajiTotal);
     }
+
+    public void setNamaPegawai(String namaPegawai) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Input NPP  : ");
+        npp = input.next();
+        this.namaPegawai = namaPegawai;
     }
+    public String getNamaPegawai(){
+        return  namaPegawai;
+    }
+
+}
