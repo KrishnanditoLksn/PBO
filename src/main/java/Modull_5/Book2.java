@@ -6,12 +6,11 @@ public class Book2 {
     String AuthorName,BookCode,Tittle;
     int PubDate;
     Buku[]BookList;
+    Pengarang[]daftarP;
 
-    Book2(String Author , String BookCode ,String tittle , int PubDate , Buku[]bookList){
-        this.AuthorName = Author;
+    Book2( String BookCode ,String tittle , int PubDate ){
         this.BookCode = BookCode;
         this.Tittle = tittle;
-        this.BookList = bookList;
         this.PubDate = PubDate;
     }
 
@@ -45,6 +44,10 @@ public class Book2 {
 
     void setTittle(String tittle){
         this.Tittle = tittle;
+    }
+
+    void setDaftarP(Pengarang [] pengarangs){
+        this.daftarP = pengarangs;
     }
 
 }

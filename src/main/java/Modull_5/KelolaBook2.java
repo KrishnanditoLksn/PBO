@@ -2,22 +2,95 @@ package Modull_5;
 
 import  java.util.*;
 public class KelolaBook2 {
-    static  int jumlah , PubDate;
-    static String AuthorName,BookCode,Tittle;
+    static  int jumlah , PubDate,jumlahP , UserI;
+    static String AuthorName,BookCode,Tittle,nik, Alamat;
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Jumlah Buku : ");
-        jumlah = input.nextInt();
+
+        /*System.out.println("Jumlah Buku : ");
+        jumlah = input.nextInt();*/
+
+        System.out.println("Jumlah Pengarang : ");
+        jumlahP = input.nextInt();
+
+        Book2[] b1 = new Book2[jumlahP];
+        Pengarang[] p1 = new Pengarang[jumlahP];
+
+        for (int x = 0; x < jumlahP; x++) {
+            /*
+            User diminta untuk menginput data buku beserta jumlahnya
+             */
+            System.out.println("==========================");
+            System.out.println("Judul Buku : " + (x + 1));
+            Tittle = input.next();
+            Tittle += input.next();
+            System.out.println("==========================");
+
+            System.out.println("==========================");
+            System.out.println("Kode Buku : ");
+            BookCode = input.next();
+            System.out.println("==========================");
+            /*
+            User diminta untuk menginput data pengarang
+             */
+
+            System.out.println("===========================");
+            System.out.println("Pengarang : ");
+            AuthorName = input.next();
+            AuthorName += input.next();
+            System.out.println("===========================");
+
+            System.out.println("===========================");
+            System.out.println("NIK : ");
+            nik = input.next();
+            System.out.println("===========================");
+
+            System.out.println("===========================");
+            System.out.println("Alamat : ");
+            Alamat = input.next();
+            System.out.println("===========================");
+
+            System.out.println("===========================");
+            System.out.println("Tahun Terbit : ");
+            PubDate = input.nextInt();
+            System.out.println("===========================");
 
 
+            p1[x] = new Pengarang(AuthorName, nik, Alamat);
+            b1[x] = new Book2(Tittle, BookCode, PubDate);
+            b1[x].setTittle(Tittle);
+            b1[x].setBookCode(BookCode);
+            b1[x].setPubDate(PubDate);
+            //b1[x].setNama(AuthorName);
+            p1[x].setNik(nik);
+            p1[x].setAlamat(Alamat);
+            p1[x].setNama(AuthorName);
+            b1[x].setDaftarP(p1);
+        }
+        /*
+        Metode untuk menampilkan daftar buku beserta pengarangnnya
+        (-) Pengarang belum ditampilkan
+         */
 
+        for (Book2 book2 : b1) {
+            System.out.println(book2.getTittle() + " - " + book2.getBookCode() + " - " + book2.getPubDate() + " - " + book2.getAuthorName());
+        }
 
+        /*
+        Menampilkan jumlah tahun terbit yang ingin dicari user lewat input keyboard
+         */
 
+        System.out.println("Mencari Tahun : ");
+        UserI = input.nextInt();
 
-
-
-
-
+        /*
+        Mengecek jika buku yang di input user ada
+         */
+        for (Book2 book2 : b1) {
+            if (UserI == book2.getPubDate()) {
+                jumlah += 1;
+            }
+        }  System.out.println("Jadi jumlah buku yang anda cari ada " + jumlah);
     }
 
 }
