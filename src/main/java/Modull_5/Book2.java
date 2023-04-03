@@ -1,25 +1,19 @@
 package Modull_5;
 
-import Modul_4.Buku;
-
 public class Book2 {
-    String AuthorName,BookCode,Tittle;
+    String AuthorName,BookCode,Tittle, nik , alamat;
     int PubDate;
-    Buku[]BookList;
-    Pengarang[]daftarP;
+    Book2[] daftarP;
 
-    Book2( String BookCode ,String tittle , int PubDate ){
+    Book2( String BookCode ,String tittle , int PubDate ,String AuthorName){
         this.BookCode = BookCode;
         this.Tittle = tittle;
         this.PubDate = PubDate;
+        this.AuthorName  =AuthorName;
     }
 
     String getAuthorName(){
         return  AuthorName;
-    }
-
-    void setAuthorName(String authorName){
-        this.AuthorName =authorName;
     }
 
     String getBookCode(){
@@ -46,7 +40,34 @@ public class Book2 {
         this.Tittle = tittle;
     }
 
-    void setDaftarP(Pengarang [] pengarangs){
+    void setDaftarP(Book2 [] pengarangs){
+        for (Book2 book2:pengarangs) {
+            System.out.println(book2.getAuthorName() + " - " + book2.getNik() + " - " + book2.getAlamat());
+        }
         this.daftarP = pengarangs;
+    }
+
+    Book2[] getDaftarp(){
+        return daftarP;
+    }
+
+    void setNama(String nama){
+        this.AuthorName = nama;
+    }
+
+    String getNik(){
+        return  nik;
+    }
+
+    void setNik(String nik){
+        this.nik = nik;
+    }
+
+    void setAlamat(String alamat){
+        this.alamat =alamat;
+    }
+
+    String getAlamat(){
+        return  alamat;
     }
 }

@@ -4,7 +4,7 @@ public class KelolaBuku {
     static int a;
     static int jumlah, usery;
     static String kode_buku;
-    static String judul, usera;
+    static String judul;
     static String nama_pengarang;
 
     public static void main(String[] args) {
@@ -35,12 +35,13 @@ public class KelolaBuku {
             buku[i].setJudul(judul);
             buku[i].setNama_pengarang(nama_pengarang);
             buku[i].setKode_buku(kode_buku);
-            buku[i].setAuthor_input(input);
 
+            /*buku[i].setAuthor_input(input);
+            */
             //BUGGG
             // mencari tahun jalan terus
             //buku[i].userYear(input);
-            System.out.println(buku[i].getAuthor_input());
+            //System.out.println(buku[i].getAuthor_input());
         }
 
         /*try {
@@ -63,14 +64,16 @@ public class KelolaBuku {
                 System.out.println("Input tahun yang akan dicari :");
                 usery = input.nextInt();
 
-                for (int i = 1; i < buku.length; i++) {
+                for (Buku b1 : buku) {
 
-                    if (usery == buku[i].getTahun_terbit()) {
+                    if (usery == b1.getTahun_terbit()) {
                         jumlah += 1;
                         System.out.println("Jumlah buku dengan tahun yang anda cari adalah : " + jumlah);
-                    } else if (usery != buku[i].getTahun_terbit()) {
+                    }
+                    else  {
                         System.out.println("Not Found");
                     }
+
                 }
             } catch (Exception E) {
                 System.out.println("Input a Integer!!!!");
