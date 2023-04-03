@@ -49,8 +49,8 @@ public class KelolaPerusahaan {
             p1[i] = new Perusahaan(np , ap , p);
             pg1[i].setNamaPegawai(namaPegawai);
             pg1[i].setNpp(npp);
-            pg1[i].setGolongan(golongan);
-            pg1[i].setStatus(status);
+            pg1[i].setGolongan();
+            pg1[i].setStatus();
             pg1[i].hitungGajiPokok();
             pg1[i].hitungTunjanganKeluarga();
             pg1[i].hitungGajiTotal();

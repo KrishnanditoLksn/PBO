@@ -1,5 +1,4 @@
 package Modul_2;
-import Modul_2_Test.Gaji_Pegawai;
 
 import java.util.Scanner;
 public class Pegawai_Gaji {
@@ -32,25 +31,23 @@ public class Pegawai_Gaji {
     }
 
 
-    public void setGolongan(int golongan) {
+    public void setGolongan() {
         Scanner input = new Scanner(System.in);
         System.out.print("Input Golongan Anda : ");
-        golongan = input.nextInt();
-        this.golongan = golongan;
+        this.golongan = input.nextInt();
     }
 
     public int getGolongan() {
         return golongan;
     }
 
-    public void setStatus(int status) {
+    public void setStatus() {
         Scanner input = new Scanner(System.in);
         System.out.println("1.Menikah");
         System.out.println("2.Belum Menikah");
         System.out.println("==================");
         System.out.print("Input Status : ");
-        status = input.nextInt();
-        this.status = status;
+        this.status = input.nextInt();
     }
 
     public int getStatus() {
