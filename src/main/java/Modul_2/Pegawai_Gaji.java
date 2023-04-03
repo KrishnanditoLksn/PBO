@@ -19,12 +19,12 @@ public class Pegawai_Gaji {
         this.npp = npp;
     }
 
-    public Pegawai_Gaji(String nama, String npp , int golongan , int status , int juumlahAnak) {
+    public Pegawai_Gaji(String nama, String npp , int golongan , int status ) {
         this.namaPegawai = nama;
         this.npp = npp;
         this.status = status;
         this.golongan = golongan;
-        this.JuumlahAnak = juumlahAnak;
+        //this.JuumlahAnak = juumlahAnak;
     }
 
     public String getNpp() {
@@ -36,6 +36,7 @@ public class Pegawai_Gaji {
         Scanner input = new Scanner(System.in);
         System.out.print("Input Golongan Anda : ");
         golongan = input.nextInt();
+        this.golongan = golongan;
     }
 
     public int getGolongan() {
@@ -60,7 +61,7 @@ public class Pegawai_Gaji {
         Scanner input = new Scanner(System.in);
         if (getStatus() == 1) {
             System.out.println("Jumlah anak : ");
-            Child= input.nextInt();
+            Child = input.nextInt();
         } else if (getStatus() == 2) {
             System.out.println("Anda tidak dapat tunjanngan");
         } else {
@@ -70,7 +71,7 @@ public class Pegawai_Gaji {
     }
 
     public int getJuumlahAnak() {
-        return JuumlahAnak;
+        return Child;
     }
 
     public void hitungGajiPokok() {
@@ -110,8 +111,8 @@ public class Pegawai_Gaji {
         npp = input.next();
         this.namaPegawai = namaPegawai;
     }
+
     public String getNamaPegawai(){
         return  namaPegawai;
     }
-
 }

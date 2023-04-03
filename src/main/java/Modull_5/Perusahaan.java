@@ -3,7 +3,7 @@ package Modull_5;
 import Modul_2.Pegawai_Gaji;
 public class Perusahaan{
 
-    String ap , np  , p , daftar;
+    String ap , np  , p , daftar , namaPerusahaan;
     Pegawai_Gaji [] list;
 
     void setNp(String np){
@@ -23,6 +23,15 @@ public class Perusahaan{
         return  ap;
     }
 
+    String getNamaPerusahaan(){
+        return  namaPerusahaan;
+    }
+
+
+    void setNamaPerusahaan(String namaPerusahaan){
+        this.namaPerusahaan =namaPerusahaan;
+    }
+
     Perusahaan(String np , String ap , String p){
         this.ap = ap;
         this.np = np;
@@ -35,9 +44,10 @@ public class Perusahaan{
         this.list = list;
     }
 
-    Pegawai_Gaji[] getDaftar(){
+    /*Pegawai_Gaji[] getDaftar(){
         return  list;
-    }
+    }*/
+
     void setP(String p){
         this.p = p;
     }
@@ -46,5 +56,4 @@ public class Perusahaan{
 
         return  p;
     }
-
 }

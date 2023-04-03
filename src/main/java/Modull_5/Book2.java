@@ -14,7 +14,6 @@ public class Book2 {
         this.PubDate = PubDate;
     }
 
-
     String getAuthorName(){
         return  AuthorName;
     }
@@ -26,6 +25,7 @@ public class Book2 {
     String getBookCode(){
         return BookCode;
     }
+
     void setBookCode(String bookCode){
         this.BookCode = bookCode;
     }
@@ -49,5 +49,4 @@ public class Book2 {
     void setDaftarP(Pengarang [] pengarangs){
         this.daftarP = pengarangs;
     }
-
 }
