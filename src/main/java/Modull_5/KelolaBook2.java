@@ -83,7 +83,6 @@ public class KelolaBook2 {
 
         /*
         Metode untuk menampilkan daftar buku beserta pengarangnnya
-        (-) Pengarang belum ditampilkan
          */
 
             for (Book2 book2 : b1) {
