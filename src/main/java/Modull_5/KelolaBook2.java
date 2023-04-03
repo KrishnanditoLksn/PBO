@@ -12,17 +12,12 @@ public class KelolaBook2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        /*System.out.println("Jumlah Buku : ");
-        jumlah = input.nextInt();*/
-
-
-        System.out.println("Jumlah Pengarang : ");
+        System.out.println("Jumlah Buku  : ");
         jumlahP = input.nextInt();
 
         if (jumlahP <= 0) {
             System.out.println("Invalid");
-        }
-        else {
+        } else {
             Book2[] b1 = new Book2[jumlahP];
             Pengarang[] p1 = new Pengarang[jumlahP];
 
@@ -69,18 +64,19 @@ public class KelolaBook2 {
                 PubDate = input.nextInt();
                 System.out.println("===========================");
 
-
+                /*
                 p1[x] = new Pengarang(AuthorName, nik, Alamat);
-                b1[x] = new Book2(Tittle, BookCode, PubDate);
+                */
+
+                b1[x] = new Book2(Tittle, BookCode, PubDate,AuthorName);
                 b1[x].setTittle(Tittle);
                 b1[x].setBookCode(BookCode);
                 b1[x].setPubDate(PubDate);
-                p1[x].setNik(nik);
-                p1[x].setAlamat(Alamat);
-                p1[x].setNama(AuthorName);
-                b1[x].setDaftarP(p1);
+                b1[x].setNik(nik);
+                b1[x].setAlamat(Alamat);
+                b1[x].setNama(AuthorName);
+                b1[x].setDaftarP(b1);
             }
-
         /*
         Metode untuk menampilkan daftar buku beserta pengarangnnya
          */
@@ -102,9 +98,8 @@ public class KelolaBook2 {
             for (Book2 book2 : b1) {
                 if (UserI == book2.getPubDate()) {
                     jumlah += 1;
-                } else {
-                    System.out.println("Gak Ketemu");
                 }
+
             }
             System.out.println("Jadi jumlah buku yang anda cari ada " + jumlah);
             /*
@@ -112,14 +107,16 @@ public class KelolaBook2 {
             */
 
             Book2 tertinggi = b1[0];
-
+            /*
+            Book2 terendah  = b1[0];
+            */
 
             for (Book2 book2 : b1) {
                 //
                 if (book2.getPubDate() > tertinggi.getPubDate()) {
-                    System.out.println("Buku dengan terbitan paling awal adalah " + book2.getTittle() + "  - " + book2.getBookCode() + "  - " + book2.getPubDate());
+                    System.out.println("Buku dengan terbitan paling baru adalah " + book2.getTittle() + "  - " + book2.getBookCode() + "  - " + book2.getPubDate());
                 } else if (book2.getPubDate() < tertinggi.getPubDate()) {
-                    System.out.println("Buku dengan terbit paling akhir adalah " + book2.getTittle() + "  - " + book2.getBookCode() + "  - " + book2.getPubDate());
+                    System.out.println("Buku dengan terbit paling lama adalah " + book2.getTittle() + "  - " + book2.getBookCode() + "  - " + book2.getPubDate());
                 }
             }
         }
