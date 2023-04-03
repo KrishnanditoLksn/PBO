@@ -1,11 +1,19 @@
 package Modull_5;
 
 public class Book2 {
-    String AuthorName,BookCode,Tittle, nik , alamat;
+    String AuthorName,BookCode,Tittle, nik , alamat,PubName;
     int PubDate;
     Book2[] daftarP;
 
-    Book2( String BookCode ,String tittle , int PubDate ,String AuthorName){
+    public String getPubName() {
+        return PubName;
+    }
+
+    public void setPubName(String pubName) {
+        PubName = pubName;
+    }
+
+    Book2(String BookCode , String tittle , int PubDate , String AuthorName){
         this.BookCode = BookCode;
         this.Tittle = tittle;
         this.PubDate = PubDate;

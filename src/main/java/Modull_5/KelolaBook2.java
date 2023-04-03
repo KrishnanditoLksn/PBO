@@ -4,10 +4,12 @@ package Modull_5;
 @Github : KrishnanditoLksn
  */
 
+import New_Book.Pengarang;
+
 import  java.util.*;
 public class KelolaBook2 {
     static int jumlah, PubDate, jumlahP, UserI;
-    static String AuthorName, BookCode, Tittle, nik, Alamat;
+    static String AuthorName, BookCode, Tittle, nik, Alamat,PubName;
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -19,8 +21,6 @@ public class KelolaBook2 {
             System.out.println("Invalid");
         } else {
             Book2[] b1 = new Book2[jumlahP];
-            Pengarang[] p1 = new Pengarang[jumlahP];
-
             for (int x = 0; x < jumlahP; x++) {
             /*
             User diminta untuk menginput data buku beserta jumlahnya
@@ -64,6 +64,12 @@ public class KelolaBook2 {
                 PubDate = input.nextInt();
                 System.out.println("===========================");
 
+                System.out.println("===========================");
+                System.out.println("Penerbit : ");
+                PubName = input.next();
+                PubName += input.nextLine();
+                System.out.println("===========================");
+
                 /*
                 p1[x] = new Pengarang(AuthorName, nik, Alamat);
                 */
@@ -75,14 +81,17 @@ public class KelolaBook2 {
                 b1[x].setNik(nik);
                 b1[x].setAlamat(Alamat);
                 b1[x].setNama(AuthorName);
-                b1[x].setDaftarP(b1);
+                b1[x].setPubName(PubName);
+
+                /*b1[x].setDaftarP(b1);
+                 */
             }
         /*
         Metode untuk menampilkan daftar buku beserta pengarangnnya
          */
 
             for (Book2 book2 : b1) {
-                System.out.println(book2.getTittle() + " - " + book2.getBookCode() + " - " + book2.getPubDate() + " - " + book2.getAuthorName());
+                System.out.println(book2.getTittle() + " - " + book2.getBookCode() + " - " + book2.getPubDate() + " - " + book2.getAuthorName() + " - " + book2.getPubName());
             }
 
         /*
@@ -99,7 +108,6 @@ public class KelolaBook2 {
                 if (UserI == book2.getPubDate()) {
                     jumlah += 1;
                 }
-
             }
             System.out.println("Jadi jumlah buku yang anda cari ada " + jumlah);
             /*
@@ -107,16 +115,13 @@ public class KelolaBook2 {
             */
 
             Book2 tertinggi = b1[0];
-            /*
-            Book2 terendah  = b1[0];
-            */
 
             for (Book2 book2 : b1) {
                 //
                 if (book2.getPubDate() > tertinggi.getPubDate()) {
-                    System.out.println("Buku dengan terbitan paling baru adalah " + book2.getTittle() + "  - " + book2.getBookCode() + "  - " + book2.getPubDate());
+                    System.out.println("Buku dengan terbitan paling baru adalah " + book2.getTittle() + "  - " + book2.getBookCode() + "  - " + book2.getPubDate() + " - " + book2.getPubName());
                 } else if (book2.getPubDate() < tertinggi.getPubDate()) {
-                    System.out.println("Buku dengan terbit paling lama adalah " + book2.getTittle() + "  - " + book2.getBookCode() + "  - " + book2.getPubDate());
+                    System.out.println("Buku dengan terbit paling lama adalah " + book2.getTittle() + "  - " + book2.getBookCode() + "  - " + book2.getPubDate() + " - " + book2.getPubName());
                 }
             }
         }
