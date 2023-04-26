@@ -1,0 +1,19 @@
+Pada kelas Mahasiswa, tambahkan metode hitungNilaiFinal untuk menampilkan nilai final
+berdasar hasil UTS dan UAS. Untuk kelas Mahasiswa S1, penentuan nilai final mengikuti
+aturan sebagai berikut:
+Skor Final Nilai Final
+Skor ≥ 80 A
+70 ≤ skor < 80 B
+56 ≤ skor < 70 C
+45 ≤ skor < 56 D
+< 45 E
+
+
+
+Untuk kelas Mahasiswa S2, penentuan nilai final mengikuti aturan sebagai berikut:
+Skor Final Nilai Final
+Skor ≥ 85 A
+70 ≤ skor < 85 B
+56 ≤ skor < 70 C
+45 ≤ skor < 56 D
+< 45 E
