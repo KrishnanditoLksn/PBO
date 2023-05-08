@@ -1,45 +1,105 @@
 package Modul_7;
-
 import java.util.Scanner;
 
 public class MainKaryawan {
+    public static final int WIDTH = 70;
+    protected static final double Subsidi = 1000000;
+    private static double gajiPokok, upahHarian;
+
+    /*
+    method untuk membuat sama dengan
+     */
+    public static void divide() {
+        System.out.println("=".repeat(WIDTH));
+    }
+
+    /*
+    method untuk mencetak pilihan karyawan
+     */
+    public static void info() {
+        System.out.println("Pilihan : ");
+        System.out.println("1 . KARYAWAN TETAP  ");
+        System.out.println("2 . KARYAWAN KONTRAK ");
+    }
+
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-
         /*
-        Membuat  1 objek Karyawan tetap
+        membuat variabel untuk menyimpan hasil dari input an user yang berisi data data karyawan
          */
 
-        KaryawanTetap karyawanTetap = new KaryawanTetap(null,0,0,0,0);
+        int jumlahKaryawan, userChoose, jumlahAnak, npp;
+        String nama;
 
-        karyawanTetap.setNama("Mikael");
-        karyawanTetap.setNpp(421421);
-        karyawanTetap.setJumlahAnak(2);
-        karyawanTetap.setGajiPokok(1500000);
+        Scanner robot = new Scanner(System.in);
+
+        System.out.println("Jumlah Karyawan : ");
+        jumlahKaryawan = robot.nextInt();
+        Karyawan[] karyawans = new Karyawan[jumlahKaryawan];
+
+        for (int i = 0; i < karyawans.length; i++) {
+            do {
+                info();
+                System.out.println("PILIH : ");
+                userChoose = robot.nextInt();
+                divide();
+
+                System.out.println("NAMA KARYAWAN : ");
+                nama = robot.next();
+                nama += robot.nextLine();
+
+                System.out.println("NPP : ");
+                npp = robot.nextInt();
+
+                System.out.println("JUMLAH ANAK : ");
+                jumlahAnak = robot.nextInt();
 
 
-        System.out.println("================================================================================================");
-        System.out.println("NAMA KARYAWAN TETAP : ");
-        System.out.println("================================================================================================");
+                if (userChoose == 1) {
+                    System.out.println("GAJI POKOK : ");
+                    gajiPokok = robot.nextDouble();
+                    karyawans[i] = new KaryawanTetap(nama, npp, jumlahAnak, Subsidi);
+                    karyawans[i].setNama(nama);
+                    karyawans[i].setNpp(npp);
+                    karyawans[i].setJumlahAnak(jumlahAnak);
 
-        System.out.println(karyawanTetap.getNama() + " - " + karyawanTetap.getNpp()+ " - "  + karyawanTetap.getJumlahAnak());
-        karyawanTetap.gajiTotal();
+                } else if (userChoose == 2) {
+                    System.out.println("UPAH HARIAN : ");
+                    upahHarian = robot.nextDouble();
+                    karyawans[i] = new KaryawanKontrak(nama, npp, jumlahAnak, Subsidi, upahHarian);
+                    karyawans[i].setNama(nama);
+                    karyawans[i].setNpp(npp);
+                    karyawans[i].setJumlahAnak(jumlahAnak);
+                    karyawans[i].jumlahHari(robot);
+                } else {
+                    System.out.println("Input 1 atau 2 yaa");
+                }
+            } while (userChoose > 2 || userChoose <= 0);
+        }
 
-        /*
-        Membuat 1 objek Karyawan Kontrak
-         */
-
-        System.out.println("================================================================================================");
-        System.out.println("NAMA KARYAWAN KONTRAK : ");
-        System.out.println("================================================================================================");
-
-        KaryawanKontrak karyawanKontrak  = new KaryawanKontrak(null,0,0,0,0);
-        karyawanKontrak.setNama("Otid");
-        karyawanKontrak.setNpp(23123);
-        karyawanKontrak.setJumlahAnak(7);
-        karyawanKontrak.setUpahHarian(50000);
-        karyawanKontrak.jumlahHari(input);
-
-        System.out.println("Nama : " + karyawanKontrak.getNama() + " - " + "Upah Harian : " +  karyawanKontrak.getUpahHarian() +  " - "  + karyawanKontrak.upahTotal);
+        for (Karyawan karyawan : karyawans) {
+            if (karyawan instanceof KaryawanTetap) {
+                KaryawanTetap karyawanTetap;
+                karyawanTetap = (KaryawanTetap) karyawan;
+                ((KaryawanTetap) karyawan).setGajiPokok(gajiPokok);
+                divide();
+                System.out.println("KARYAWAN TETAP ");
+                divide();
+                System.out.println("NAMA KARYAWAN : " + karyawanTetap.getNama());
+                System.out.println("GAJI POKOK   :" + karyawanTetap.getGajiPokok());
+                System.out.println("GAJI TOTAL   : " + karyawanTetap.convertRupiah((int) karyawanTetap.gajiTotal()));
+            } else if (karyawan instanceof KaryawanKontrak) {
+                if (((KaryawanKontrak) karyawan).getUpahTotal() < 1000000) {
+                    KaryawanKontrak karyawanKontrak;
+                    karyawanKontrak = (KaryawanKontrak) karyawan;
+                    ((KaryawanKontrak) karyawan).setUpahHarian(upahHarian);
+                    divide();
+                    System.out.println("KARYAWAN KONTRAK ");
+                    divide();
+                    System.out.println("NAMA KARYAWAN : " + karyawanKontrak.getNama());
+                    System.out.println("UPAH HARIAN : " + karyawanKontrak.getUpahHarian());
+                    System.out.println("UPAH TOTAL  : " + karyawanKontrak.convertRupiah((int) karyawanKontrak.getUpahHarian()));
+                }
+            }
+        }
     }
 }

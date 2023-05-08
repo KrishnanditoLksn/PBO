@@ -1,44 +1,64 @@
 package Modul_7;
+import java.util.Scanner;
 
 public class Karyawan {
-    int npp,jumlahAnak;
-    String nama;
-    static double subsidiPerAnak;
+    private int npp, jumlahAnak;
+    private String nama;
 
-    protected   Karyawan(String nama,int npp,int jumlahAnak,double subsidiPerAnak){
+    public static double subsidiPerAnak;
+
+    /*
+    metode Kelas konstruktor untuk Karyawan
+     */
+    protected Karyawan(String nama, int npp, int jumlahAnak, double subsidiPerAnak) {
         this.nama = nama;
         this.npp = npp;
         this.jumlahAnak = jumlahAnak;
         Karyawan.subsidiPerAnak = subsidiPerAnak;
     }
 
-    protected void setNpp(int npp){
+    /*
+    getter dan setter untuk atribut karyawan
+     */
+
+    public void setNpp(int npp) {
         this.npp = npp;
     }
 
-    protected int getNpp(){
-        return  npp;
+    public  int getNpp() {
+        return npp;
     }
 
-    protected void setNama(String nama){
+    public void setNama(String nama) {
         this.nama = nama;
     }
 
-    protected String getNama(){
-        return  nama;
+
+    public String getNama() {
+        return nama;
     }
 
-    protected void setJumlahAnak(int jumlahAnak){
+
+    public void setJumlahAnak(int jumlahAnak) {
         this.jumlahAnak = jumlahAnak;
     }
 
-    protected int getJumlahAnak() {
+   public int getJumlahAnak() {
         return jumlahAnak;
     }
 
-    protected int tunjanganAnak(){
+    protected int tunjanganAnak() {
         subsidiPerAnak = 100000;
         double tunk = getJumlahAnak() * subsidiPerAnak;
         return (int) tunk;
     }
+
+    /*
+    metode yang akan di turunkan ke kelas anak
+     */
+
+    public void jumlahHari(Scanner scan){}
+
+    protected String convertRupiah(int price){return null;}
+
 }

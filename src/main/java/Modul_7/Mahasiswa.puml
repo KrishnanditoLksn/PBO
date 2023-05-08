@@ -1,0 +1,42 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Mhs_S2{
++Comparison(nilai_finals : double) :  void
+}
+
+class Mhs_S1{
++Comparison(nilai_finals : double) :  void
+}
+
+class Mhs{
+-nama , tanggallahir,nim : String
+-uts1,uts2,uas : double
+#Comparison : char
++setNim(nim : String):void
++setTanggal_lahir(tanggallahir : String):void
++setNama(nama : String):void
+# Mhs (nim : String , nama : String , tanggallahir : String , uts1 : double  , uts2 : double , uas : double )
++getNama():String
++getNim():String
++getTanggal_lahir():String
++getUts2():double
++getUts1():double
++setUas(uas : double):void
++setUts2(uts2 : double):void
++setUts1(uts1 : double):void
++getUas():double
++getNilai_final():double
++Comparison(nilai_finals : double):void
++getComparison():char
+}
+
+class Main_Mahasiswa{
++ {static}main(args: String[]): void
+}
+
+Mhs <||-- Mhs_S1
+Mhs <||-- Mhs_S2
+Mhs_S1 *-- Main_Mahasiswa
+Mhs_S2*-- Main_Mahasiswa
+@enduml
