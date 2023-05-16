@@ -1,29 +1,39 @@
 package Modul_9;
 
-public class Manajer extends Pegawai {
-    private double tunjanganJabatan;
+public class Manajer extends Pegawai  {
+    private double tunJabatan;
     private double lemburan;
+    //private static final  double gajiPokok = 1500000;
 
-    double getTunJab(){
-        return tunjanganJabatan;
+    public double getTunJab(){
+        return tunJabatan;
     }
 
-    double getLembur(){
+    public double getLembur(){
         return  lemburan;
     }
 
+    public void setLembur(double overtime){
+        lemburan = overtime;
+    }
+
     @Override
-    String getStatus() {
+    public String getStatus() {
         return "Manager";
     }
 
     @Override
-    double getTunjangan() {
-        return tunjanganJabatan + lemburan;
+    public double getTunjangan() {
+        return tunJabatan + lemburan;
     }
 
     @Override
-    double hitungGatot() {
+    public double hitungGatot() {
         return getGapok() + getTunjangan()  + lemburan;
+    }
+
+    @Override
+    public String getEmail() {
+        return "@"+getNpp() + "Manajer.usd.ac.id";
     }
 }

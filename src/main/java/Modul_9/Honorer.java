@@ -1,23 +1,34 @@
 package Modul_9;
 
-public class Honorer extends  Pegawai{
+public class Honorer extends Pegawai  {
+
     private double lemburan;
 
-    double getLembur (){
+    double getLembur() {
         return lemburan;
     }
 
-    void setLembur(double myLembur){
+    void setLembur(double myLembur) {
         lemburan = myLembur;
     }
+
     @Override
-    double hitungGatot(){
-        return getGapok()+lemburan;
+    double hitungGatot() {
+        return getGapok() + lemburan;
     }
+
     @Override
     double getTunjangan() {
         return lemburan;
     }
+
     @Override
-    String getStatus() { return "Honorer"; }
+    String getStatus() {
+        return "Honorer";
+    }
+
+    @Override
+    public String getEmail() {
+        return "@" + getNpp() +"honorer.usd.ac.id";
+    }
 }

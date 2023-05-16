@@ -21,4 +21,8 @@ public class Pemasaran  extends  Pegawai{
     @Override
     String getStatus() { return "Pemasaran";}
 
+    @Override
+    public String getEmail() {
+        return  getNpp() + "@marketing.usd.ac.id";
+    }
 }

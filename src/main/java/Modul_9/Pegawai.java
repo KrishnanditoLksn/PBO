@@ -1,6 +1,6 @@
 package Modul_9;
 
-public abstract class Pegawai {
+public abstract class Pegawai implements Email {
     private int npp;
     private String nama;
     private double gajiPokok;
@@ -28,7 +28,9 @@ public abstract class Pegawai {
     void setGapok(double upah){
         gajiPokok = upah;
     }
+
     abstract String getStatus();
     abstract double getTunjangan();
     abstract  double hitungGatot();
 }
+
