@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class UndergraduateStudent{
++getCourseGrade:String
+}
+
+class Student{
+#{static}NUM_TESTS : int = 3
+#name : String
+#test :  int  []
+#courseGrade : String
+
++Student()
++Student(studentName : String)
++getCourseGrade():String
++getName():String
++getTestScore(index : int ):[]
++setName(name : String):void
++setTestScore(index : int   , score : int ):[]
+}
+class GraduateStudent{
++String getCourseGrade() : String
+}
+
+interface learner{
+~getCourseGrade()
+}
+
+learner --[dashed]|> Student
+Student --|> GraduateStudent
+Student --|> UndergraduateStudent
+@enduml
