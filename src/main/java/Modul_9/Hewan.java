@@ -20,13 +20,15 @@ class MainHewan{
         kewan.suara();
         kewan = new Bebek();
         kewan.suara();
+        kewan = new Harimau();
+        kewan.suara();
     }
 }
 
 class Anjing extends Hewan{
     @Override
     void suara(){
-        System.out.println("guk guok ");
+        System.out.println(" guk guok ");
     }
 }
 
@@ -37,3 +39,9 @@ class Kucing extends  Hewan{
     }
 }
 
+class Harimau extends Hewan{
+    @Override
+    void suara(){
+        System.out.println("auuuuum");
+    }
+}

@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+class Kalkulator{
+-bilangan1:double
+-bilangan2:double
+<<constructor>>Kalkulator(double)
++Kalkulator(bilangan1, bilangan2: double): void
++setBilangan1(bilangan2:double):void
++setBilangan2(bilangan2:double):void
++getBilangan1():double
++getBilangan1():double
++penjumlahan():double
++pengurangan():double
++perkalian():double
++pembagian():double
+}
+@enduml

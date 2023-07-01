@@ -3,7 +3,6 @@ package Modul_9;
 public class Manajer extends Pegawai  {
     private double tunJabatan;
     private double lemburan;
-    //private static final  double gajiPokok = 1500000;
 
     public double getTunJab(){
         return tunJabatan;

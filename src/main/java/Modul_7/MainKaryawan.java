@@ -2,7 +2,7 @@ package Modul_7;
 import java.util.Scanner;
 
 public class MainKaryawan {
-    public static final int WIDTH = 70;
+    public static final int WIDTH = 100;
     protected static final double Subsidi = 1000000;
     private static double gajiPokok, upahHarian;
 
@@ -23,6 +23,7 @@ public class MainKaryawan {
     }
 
     public static void main(String[] args) {
+
         /*
         membuat variabel untuk menyimpan hasil dari input an user yang berisi data data karyawan
          */

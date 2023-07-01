@@ -1,0 +1,27 @@
+@startuml
+class Penerbit{
+~{static}pub_name: String
+~{static}alamat: String
+~{static}tahunberdiri : int
+<<constructor>> Penerbit
++{static}getTahunBerdiri():int
++Penerbit(pub_name :String , tahunberdiri : int, alamat : int)
++{static}getPub_name():String
++{static}getAlamat():String
+}
+class Buku{
+~tahun_terbit:int
+~pengarang : String
+~isbn : String
+~judul : String
+~Book_comparison:String
+<<constructor>>Buku
+~Buku(tahun_terbit : int , judul : String , isbn : String)
+~getJudul() : String
+~getIsbn():String
+~getTahunBerdiri():String
+~getBook_comparison():void
+
+}
+
+@enduml

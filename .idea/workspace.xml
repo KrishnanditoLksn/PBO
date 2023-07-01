@@ -1,24 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1993c0ff-881b-479e-8a5b-08337f9fa50e" name="Changes" comment="adding  comment to help people understand this code">
+    <list default="true" id="1993c0ff-881b-479e-8a5b-08337f9fa50e" name="Changes" comment="*Last Module">
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_heritance/Atas_pub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_heritance/Bawah_pub1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_heritance/Bawah_pub2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Ex_heritance/Karyawan.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Koleksi_Heterogen/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_2/Main_Segitiga_Biasa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_2/Segitiga_Biasa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_2_Test/Gaji_Pegawai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_2_Test/MainGaji.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_2_Test/MainRapot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_2_Test/Rpot.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Modul_2_Test/Segitiga.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_2_UmL/Kalkulator.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_2_UmL/Penerbit.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_2_UmL/Rekening.puml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Modul_2_UmL/RekeningBank.puml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_3/BukuPerpus/Buku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_2_UmL/Segitiga_Remake.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_2_UmL/common_triangle.puml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Modul_3/Universitas/Dot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_3/Universitas/Faculty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_3/Universitas/MainProdi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_3/Universitas/Prodi.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Modul_3/Universitas/Triangle.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/Modul_3/Universitas/Triangle_Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_3_Faculty/Dosen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_3_Faculty/Mahasiswa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_3_Faculty/MainMhs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_5/Book2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_5/Book2.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_5/Book2_rev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_5/Pengarang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_5/Perusahaan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_5/Perusahaan.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_6/Book3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_6/KelolaBuku3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_6/KelolaPerusahaan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_6/Pengarang2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_6/Perusahaan2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_6_Remake/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_6_Remake/KelolaBukuu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_6_Remake/Kelola_Perusahaann.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_6_Remake/Pengarang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_6_Remake/Perusahaan_Remake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_9/Hewan.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_9/Pegawai.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul_9/bangunDatar.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/New_Book/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/New_Book/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/New_Book/Garage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/New_Book/KumpulanSegitiga.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/New_Book/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bekasmodul/Karyawan_Tetap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bekasmodul/MainKaryawann.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bekasmodul/MismatchException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/maintest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Modul_1/BujurSangkar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_1/BujurSangkar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Modul_1/Buku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_1/Buku.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Modul_2/BankMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_2/BankMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_2/Main_Pegawai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_2/Main_Pegawai.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_2/Pegawai_Gaji.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_2/Pegawai_Gaji.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_2/Gaji_Pegawai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_2/Gaji_Pegawai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_2/MainSegitigaMRemake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_2/MainSegitigaMRemake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_2/Main_Pegawai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/New_Book/Main_Pegawai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_2/PegawaiMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_2/PegawaiMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_2/Pegawai_Gaji.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/New_Book/Pegawai_Gaji.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Modul_2/RekeningBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_2/RekeningBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_2/Segitiga_Remake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_2/Segitiga_Remake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_3/BukuPerpus/Buku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_3/BukuPerpus/Buku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_3/BukuPerpus/MainBuku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_3/BukuPerpus/MainBuku.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_3/BukuPerpus/Penerbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_3/BukuPerpus/Penerbit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_4/MainMahasiswa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_4/Mhs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_7/MainKaryawan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_7/MainKaryawan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_7/MainMahasiswa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_7/MainMahasiswa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_7/Mhs_S1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_7/Mhs_S2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_9/Hewan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_9/Hewan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_9/MainPegawai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_9/MainPegawai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_9/Manajer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_9/Manajer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_9/Pegawai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_9/Pegawai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_9/SegiEmpat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_9/SegiEmpat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_9/Segitiga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_9/Segitiga.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul_9/mainBangunDatar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_9/mainBangunDatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modull_5/Book2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modull_5/KelolaBook2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_5/KelolaBook2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modull_5/KelolaPerusahaan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_5/KelolaPerusahaan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modull_5/Pengarang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modull_5/Perusahaan.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/New_Book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/New_Book/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/New_Book/mainBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul_1/mainBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
@@ -31,47 +112,54 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="UML Class" />
         <option value="Class" />
+        <option value="UML Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/Modul_2/Pegawai_Gaji.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/Modul_4/KelolaBuku.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="ProblemsViewState">
+    <option name="autoscrollToSource" value="true" />
   </component>
   <component name="ProjectId" id="2LycHrudRO4uNK86Nqf6sP6xezQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultPlantUmlFileTemplate": "UML Class",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/USD JAVA OOP/ObjekDanKelas/src/main/java/Konsep_Kelas_Object",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Logic",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -80,13 +168,13 @@
       <recent name="D:\USD JAVA OOP\PBO_1\src\main\java\Modul_2_UmL" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="MainBujurSangkar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Modul_1.MainBujurSangkar" />
+  <component name="RunManager" selected="Application.mainBangunDatar">
+    <configuration name="MainKaryawan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Modul_7.MainKaryawan" />
       <module name="PBO_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Modul_1.*" />
+          <option name="PATTERN" value="SDL_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainBuku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Modul_3.BukuPerpus.MainBuku" />
-      <module name="PBO_1" />
+    <configuration name="MainMahasiswa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SDL_1.MainMahasiswa" />
+      <module name="Array_Dulu.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Modul_3.BukuPerpus.*" />
+          <option name="PATTERN" value="SDL_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main_Pegawai" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Modul_2.Main_Pegawai" />
+    <configuration name="MainPegawai" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Modul_9.MainPegawai" />
       <module name="PBO_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Modul_2.*" />
+          <option name="PATTERN" value="New_Book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +208,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Triangle_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Modul_3.Universitas.Triangle_Main" />
+    <configuration name="MainStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Modul_10.MainStudent" />
       <module name="PBO_1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Modul_3.BukuPerpus.*" />
+          <option name="PATTERN" value="Modul_10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainBangunDatar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Modul_9.mainBangunDatar" />
+      <module name="PBO_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="New_Book.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,10 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Triangle_Main" />
-        <item itemvalue="Application.MainBuku" />
-        <item itemvalue="Application.Main_Pegawai" />
-        <item itemvalue="Application.MainBujurSangkar" />
+        <item itemvalue="Application.mainBangunDatar" />
+        <item itemvalue="Application.MainPegawai" />
+        <item itemvalue="Application.MainStudent" />
+        <item itemvalue="Application.MainKaryawan" />
+        <item itemvalue="Application.MainMahasiswa" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +357,241 @@
       <workItem from="1678534221767" duration="348000" />
       <workItem from="1678547563810" duration="2255000" />
       <workItem from="1678575507733" duration="87000" />
-      <workItem from="1678579889852" duration="3371000" />
+      <workItem from="1678579889852" duration="3952000" />
+      <workItem from="1678584669368" duration="217000" />
+      <workItem from="1678592817243" duration="2972000" />
+      <workItem from="1678625135666" duration="3500000" />
+      <workItem from="1678669478653" duration="26000" />
+      <workItem from="1678677797554" duration="2052000" />
+      <workItem from="1678720374020" duration="58000" />
+      <workItem from="1678748047369" duration="354000" />
+      <workItem from="1678762891051" duration="29000" />
+      <workItem from="1678831813567" duration="2314000" />
+      <workItem from="1678841286998" duration="3511000" />
+      <workItem from="1678844836599" duration="1287000" />
+      <workItem from="1678846141081" duration="3094000" />
+      <workItem from="1678850100257" duration="17000" />
+      <workItem from="1678851925931" duration="37000" />
+      <workItem from="1678861034297" duration="469000" />
+      <workItem from="1678869887531" duration="2993000" />
+      <workItem from="1678885365139" duration="203000" />
+      <workItem from="1678885842476" duration="701000" />
+      <workItem from="1678891410668" duration="3000" />
+      <workItem from="1678936484257" duration="7000" />
+      <workItem from="1678943706193" duration="89000" />
+      <workItem from="1678965232704" duration="162000" />
+      <workItem from="1679034848608" duration="143000" />
+      <workItem from="1679099672714" duration="1397000" />
+      <workItem from="1679104263825" duration="82000" />
+      <workItem from="1679105772381" duration="391000" />
+      <workItem from="1679114145736" duration="5318000" />
+      <workItem from="1679143477689" duration="2338000" />
+      <workItem from="1679181696629" duration="272000" />
+      <workItem from="1679182494331" duration="34000" />
+      <workItem from="1679182921961" duration="19000" />
+      <workItem from="1679192304863" duration="790000" />
+      <workItem from="1679220418827" duration="21000" />
+      <workItem from="1679281127446" duration="552000" />
+      <workItem from="1679312039712" duration="83000" />
+      <workItem from="1679371607858" duration="22000" />
+      <workItem from="1679374264314" duration="6000" />
+      <workItem from="1679538627796" duration="1573000" />
+      <workItem from="1679629598420" duration="4260000" />
+      <workItem from="1679663488196" duration="43000" />
+      <workItem from="1679752629264" duration="2228000" />
+      <workItem from="1679812937476" duration="1722000" />
+      <workItem from="1679814697614" duration="2895000" />
+      <workItem from="1679825301625" duration="223000" />
+      <workItem from="1680050216229" duration="8308000" />
+      <workItem from="1680167411789" duration="911000" />
+      <workItem from="1680169078133" duration="2389000" />
+      <workItem from="1680214221812" duration="60000" />
+      <workItem from="1680235498696" duration="1282000" />
+      <workItem from="1680236833926" duration="3027000" />
+      <workItem from="1680271055400" duration="4562000" />
+      <workItem from="1680303901234" duration="345000" />
+      <workItem from="1680304397174" duration="2197000" />
+      <workItem from="1680340092529" duration="3529000" />
+      <workItem from="1680344893287" duration="4701000" />
+      <workItem from="1680355335529" duration="3663000" />
+      <workItem from="1680360600818" duration="671000" />
+      <workItem from="1680361495873" duration="84000" />
+      <workItem from="1680362525067" duration="1558000" />
+      <workItem from="1680364200664" duration="132000" />
+      <workItem from="1680385981356" duration="4223000" />
+      <workItem from="1680446887998" duration="3597000" />
+      <workItem from="1680473729962" duration="3896000" />
+      <workItem from="1680499310507" duration="2978000" />
+      <workItem from="1680502671628" duration="3347000" />
+      <workItem from="1680513590291" duration="47000" />
+      <workItem from="1680513698924" duration="2838000" />
+      <workItem from="1680516560696" duration="7117000" />
+      <workItem from="1680527681616" duration="9441000" />
+      <workItem from="1680561057416" duration="7802000" />
+      <workItem from="1680572858584" duration="8220000" />
+      <workItem from="1680615779061" duration="6584000" />
+      <workItem from="1680649395681" duration="30000" />
+      <workItem from="1680649768580" duration="772000" />
+      <workItem from="1680670800973" duration="75000" />
+      <workItem from="1680697122788" duration="5029000" />
+      <workItem from="1680704319651" duration="22000" />
+      <workItem from="1680740104591" duration="3837000" />
+      <workItem from="1680759676984" duration="32000" />
+      <workItem from="1680761279689" duration="1214000" />
+      <workItem from="1680770612111" duration="1267000" />
+      <workItem from="1680771895853" duration="3057000" />
+      <workItem from="1680827020307" duration="6160000" />
+      <workItem from="1680837991476" duration="3301000" />
+      <workItem from="1680843471627" duration="6522000" />
+      <workItem from="1680863049615" duration="5452000" />
+      <workItem from="1680869586182" duration="324000" />
+      <workItem from="1680876682487" duration="3812000" />
+      <workItem from="1680913912839" duration="623000" />
+      <workItem from="1680914545737" duration="17904000" />
+      <workItem from="1680946931209" duration="2143000" />
+      <workItem from="1680967679095" duration="39000" />
+      <workItem from="1680967842570" duration="534000" />
+      <workItem from="1681001701196" duration="1814000" />
+      <workItem from="1681004021076" duration="8000" />
+      <workItem from="1681004072697" duration="1260000" />
+      <workItem from="1681005361513" duration="11631000" />
+      <workItem from="1681028763531" duration="250000" />
+      <workItem from="1681029216016" duration="19678000" />
+      <workItem from="1681083364490" duration="5451000" />
+      <workItem from="1681091210898" duration="5763000" />
+      <workItem from="1681119655529" duration="21768000" />
+      <workItem from="1681169176661" duration="8590000" />
+      <workItem from="1681187791310" duration="4335000" />
+      <workItem from="1681204536482" duration="6005000" />
+      <workItem from="1681216407577" duration="7934000" />
+      <workItem from="1681257522670" duration="757000" />
+      <workItem from="1681261224002" duration="674000" />
+      <workItem from="1681270004998" duration="694000" />
+      <workItem from="1681523585168" duration="1683000" />
+      <workItem from="1681529263257" duration="4823000" />
+      <workItem from="1681657289995" duration="1313000" />
+      <workItem from="1681683568437" duration="2680000" />
+      <workItem from="1681702466727" duration="68000" />
+      <workItem from="1681705226341" duration="1585000" />
+      <workItem from="1681729829964" duration="786000" />
+      <workItem from="1681730839909" duration="439000" />
+      <workItem from="1681813607907" duration="224000" />
+      <workItem from="1682089217803" duration="69000" />
+      <workItem from="1682164488727" duration="21000" />
+      <workItem from="1682170093902" duration="89000" />
+      <workItem from="1682344554257" duration="879000" />
+      <workItem from="1682416963228" duration="16279000" />
+      <workItem from="1682460430417" duration="24000" />
+      <workItem from="1682460482356" duration="4491000" />
+      <workItem from="1682465885767" duration="285000" />
+      <workItem from="1682468611306" duration="6278000" />
+      <workItem from="1682475023439" duration="1791000" />
+      <workItem from="1682494844773" duration="26000" />
+      <workItem from="1682496832567" duration="443000" />
+      <workItem from="1682667385356" duration="3794000" />
+      <workItem from="1682720565528" duration="92000" />
+      <workItem from="1682721916392" duration="474000" />
+      <workItem from="1682733248220" duration="62000" />
+      <workItem from="1682775940682" duration="346000" />
+      <workItem from="1682778041431" duration="590000" />
+      <workItem from="1682823638989" duration="5308000" />
+      <workItem from="1682830987521" duration="8350000" />
+      <workItem from="1682867468665" duration="2032000" />
+      <workItem from="1682901459926" duration="3364000" />
+      <workItem from="1682939119018" duration="1053000" />
+      <workItem from="1682944260415" duration="611000" />
+      <workItem from="1682999624534" duration="325000" />
+      <workItem from="1683024838579" duration="4018000" />
+      <workItem from="1683034536758" duration="7010000" />
+      <workItem from="1683064595368" duration="4029000" />
+      <workItem from="1683073392544" duration="9170000" />
+      <workItem from="1683094624184" duration="47000" />
+      <workItem from="1683107828952" duration="13501000" />
+      <workItem from="1683153706738" duration="1901000" />
+      <workItem from="1683258719542" duration="3311000" />
+      <workItem from="1683278227453" duration="14781000" />
+      <workItem from="1683326538045" duration="2501000" />
+      <workItem from="1683359165286" duration="168000" />
+      <workItem from="1683418523404" duration="4649000" />
+      <workItem from="1683434808766" duration="8000" />
+      <workItem from="1683469005138" duration="3714000" />
+      <workItem from="1683497787710" duration="2583000" />
+      <workItem from="1683515209542" duration="5678000" />
+      <workItem from="1683526876036" duration="1327000" />
+      <workItem from="1683543673834" duration="6493000" />
+      <workItem from="1683588349280" duration="1947000" />
+      <workItem from="1683596736053" duration="4735000" />
+      <workItem from="1683628697789" duration="760000" />
+      <workItem from="1683639174340" duration="1062000" />
+      <workItem from="1683679486436" duration="6817000" />
+      <workItem from="1683690820911" duration="32000" />
+      <workItem from="1683891904352" duration="1841000" />
+      <workItem from="1683897407843" duration="3470000" />
+      <workItem from="1683938369302" duration="10434000" />
+      <workItem from="1683967166662" duration="115000" />
+      <workItem from="1683967811793" duration="2312000" />
+      <workItem from="1683986091518" duration="4818000" />
+      <workItem from="1684029084310" duration="8063000" />
+      <workItem from="1684056190663" duration="494000" />
+      <workItem from="1684057630730" duration="15372000" />
+      <workItem from="1684104499999" duration="7504000" />
+      <workItem from="1684121539886" duration="3509000" />
+      <workItem from="1684126106786" duration="548000" />
+      <workItem from="1684129170372" duration="4218000" />
+      <workItem from="1684151081670" duration="1781000" />
+      <workItem from="1684153334896" duration="5913000" />
+      <workItem from="1684192995807" duration="2494000" />
+      <workItem from="1684202562643" duration="892000" />
+      <workItem from="1684209009379" duration="93000" />
+      <workItem from="1684212175849" duration="621000" />
+      <workItem from="1684237566672" duration="688000" />
+      <workItem from="1684282533027" duration="649000" />
+      <workItem from="1684283468356" duration="19000" />
+      <workItem from="1684283494327" duration="8925000" />
+      <workItem from="1684295103440" duration="1829000" />
+      <workItem from="1684328964457" duration="3102000" />
+      <workItem from="1684401987446" duration="942000" />
+      <workItem from="1684403802926" duration="1206000" />
+      <workItem from="1684411035208" duration="1167000" />
+      <workItem from="1684552731555" duration="1408000" />
+      <workItem from="1684631448113" duration="7000" />
+      <workItem from="1684631566838" duration="41000" />
+      <workItem from="1684666255489" duration="1986000" />
+      <workItem from="1684682231553" duration="1464000" />
+      <workItem from="1684725194159" duration="210000" />
+      <workItem from="1684738658821" duration="2018000" />
+      <workItem from="1684754332853" duration="367000" />
+      <workItem from="1684754757531" duration="132000" />
+      <workItem from="1684804116631" duration="36000" />
+      <workItem from="1684805149192" duration="197000" />
+      <workItem from="1684844790011" duration="1443000" />
+      <workItem from="1684890440785" duration="1630000" />
+      <workItem from="1684898042188" duration="38000" />
+      <workItem from="1684932879782" duration="98000" />
+      <workItem from="1684933321619" duration="267000" />
+      <workItem from="1684967269272" duration="287000" />
+      <workItem from="1684967694494" duration="1216000" />
+      <workItem from="1684983439513" duration="23000" />
+      <workItem from="1685005141283" duration="184000" />
+      <workItem from="1685287566144" duration="850000" />
+      <workItem from="1685313519609" duration="17000" />
+      <workItem from="1685358730124" duration="67000" />
+      <workItem from="1685359137975" duration="2719000" />
+      <workItem from="1685366808037" duration="19000" />
+      <workItem from="1685371507842" duration="880000" />
+      <workItem from="1685403307984" duration="42000" />
+      <workItem from="1685405612921" duration="4562000" />
+      <workItem from="1686659715654" duration="1893000" />
+      <workItem from="1686696093345" duration="75000" />
+      <workItem from="1686700285767" duration="32000" />
+      <workItem from="1686700632172" duration="121000" />
+      <workItem from="1686700773132" duration="98000" />
+      <workItem from="1686722731991" duration="61000" />
+      <workItem from="1686917380480" duration="4000" />
+      <workItem from="1686960083439" duration="107000" />
+      <workItem from="1686966764043" duration="664000" />
+      <workItem from="1688179618755" duration="189000" />
+      <workItem from="1688179833937" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="temporary change">
       <created>1676992764587</created>
@@ -292,7 +628,133 @@
       <option name="project" value="LOCAL" />
       <updated>1677982950913</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding  a simple program with obj of ref from another class in java">
+      <created>1678583770619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678583770619</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding  a simple program with obj of ref from another class in java">
+      <created>1680342982374</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680342982374</updated>
+    </task>
+    <task id="LOCAL-00008" summary="adding  a simple program with obj of ref from another class in java">
+      <created>1680363987405</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680363987405</updated>
+    </task>
+    <task id="LOCAL-00009" summary="will be resolved asap">
+      <created>1680364317442</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680364317442</updated>
+    </task>
+    <task id="LOCAL-00010" summary="will be resolved asap">
+      <created>1680475257528</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680475257528</updated>
+    </task>
+    <task id="LOCAL-00011" summary="will be resolved asap">
+      <created>1680505135021</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680505135021</updated>
+    </task>
+    <task id="LOCAL-00012" summary="will be resolved asap *removing param in each set Method">
+      <created>1680505344679</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680505344679</updated>
+    </task>
+    <task id="LOCAL-00013" summary="99%">
+      <created>1680521159312</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680521159312</updated>
+    </task>
+    <task id="LOCAL-00014" summary="99%">
+      <created>1680521412558</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680521412558</updated>
+    </task>
+    <task id="LOCAL-00015" summary="adding a publisher name * 99 , 4 %">
+      <created>1680566219168</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680566219168</updated>
+    </task>
+    <task id="LOCAL-00016" summary="adding comment * 99 , 6 %">
+      <created>1680569176421</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680569176421</updated>
+    </task>
+    <task id="LOCAL-00017" summary="adding comment * 99 , 6 %">
+      <created>1680621618656</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1680621618656</updated>
+    </task>
+    <task id="LOCAL-00018" summary="remake version of Employee's salary program">
+      <created>1680772599357</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680772599357</updated>
+    </task>
+    <task id="LOCAL-00019" summary="*inheritance">
+      <created>1682497144495</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1682497144495</updated>
+    </task>
+    <task id="LOCAL-00020" summary="*heterogeneous collection">
+      <created>1683550204530</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1683550204530</updated>
+    </task>
+    <task id="LOCAL-00021" summary="*polymorphism(still untidy output)">
+      <created>1683990161735</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1683990161735</updated>
+    </task>
+    <task id="LOCAL-00022" summary="*adding interface">
+      <created>1684202748341</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1684202748341</updated>
+    </task>
+    <task id="LOCAL-00023" summary="*adding interface">
+      <created>1684805328500</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1684805328500</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,11 +772,23 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="temporary change" />
     <MESSAGE value="temporary change*2" />
     <MESSAGE value="temporary change*3" />
     <MESSAGE value="adding 2nd modul" />
     <MESSAGE value="adding  comment to help people understand this code" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding  comment to help people understand this code" />
+    <MESSAGE value="adding  a simple program with obj of ref from another class in java" />
+    <MESSAGE value="will be resolved asap" />
+    <MESSAGE value="will be resolved asap *removing param in each set Method" />
+    <MESSAGE value="99%" />
+    <MESSAGE value="adding a publisher name * 99 , 4 %" />
+    <MESSAGE value="adding comment * 99 , 6 %" />
+    <MESSAGE value="remake version of Employee's salary program" />
+    <MESSAGE value="*inheritance" />
+    <MESSAGE value="*heterogeneous collection" />
+    <MESSAGE value="*polymorphism(still untidy output)" />
+    <MESSAGE value="*adding interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="*adding interface" />
   </component>
 </project>

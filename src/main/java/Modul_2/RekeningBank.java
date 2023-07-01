@@ -2,24 +2,24 @@ package Modul_2;
 
 public class RekeningBank {
 
-    private String nomorRek;
+    private final String nomorRek;
     private int saldo;
 
-    public   RekeningBank(String nomor){
-        this.nomorRek = nomor;
+    public RekeningBank(String nomor){
+        nomorRek = nomor;
         saldo = 0;
-    }
-    public int getcekSaldo(){
 
+    }
+    public int cekSaldo(){
         return  saldo;
     }
 
-    public void settabung(int jumlah){
-        this.saldo = saldo + jumlah;
+    public void tabung(int jumlah){
+        saldo = saldo + jumlah;
     }
 
-    public void setambil (int jumlah){
-        this.saldo = saldo - jumlah;
+    public void ambil (int jumlah){
+        saldo = saldo - jumlah;
     }
 
 }

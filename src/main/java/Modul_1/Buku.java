@@ -2,11 +2,13 @@ package Modul_1;
 
 public class Buku {
 
-    private final String judul;
-    private  String pengarang;
-    private  final  String isbn;
-    private String penerbit;
-    private  String kategori;
+    String judul;
+    String pengarang;
+    String isbn;
+    String penerbit;
+    String kategori;
+    String pengarang1;
+
     // Data Structure and Algorithms;
 
 
@@ -15,14 +17,29 @@ public class Buku {
         this.isbn = isbn;
     }
 
+    void setkategori(String kategori){
+        System.out.println("Judul Buku : " + kategori);
+        this.kategori=kategori;
+    }
 
-    public String pinjam(String penerbit,String pengarang1,String kategori2){
-        System.out.println("Nama buku : " + judul + "\nNomor ISBN :" + isbn  +"\nPenerbit : " + penerbit + "\nPengarang : " + pengarang1 + "\nKategori : " +kategori2);
-        this.penerbit=penerbit;
+
+
+
+    void setPengarang(String pengarang1){
+        System.out.println("Pengarang : " + pengarang1);
         this.pengarang=pengarang1;
-        this.kategori=kategori2;
+    }
+
+    //public String pinjam(String penerbit,String pengarang1,String kategori2){
+        public String pinjam(){
+        System.out.println("Nama buku : " + judul + "\nNomor ISBN :" + isbn  +"\nPenerbit : " + penerbit + "\nPengarang : " + pengarang + "\nKategori : " +kategori);
+        /*this.penerbit=penerbit;
+        this.pengarang=pengarang1;
+        this.kategori=kategori2;*/
         return "Sedang Dipinjam";
     }
+
+
 
 
     public String kembali(String penerbit2 ,String pengarang2, String kategori2){

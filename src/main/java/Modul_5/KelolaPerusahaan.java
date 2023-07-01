@@ -1,6 +1,6 @@
-package Modull_5;
+package Modul_5;
 import java.util.*;
-import Modul_2.Pegawai_Gaji;
+import New_Book.Pegawai_Gaji;
 public class KelolaPerusahaan {
     /*
     membuat variabel untuk data pegawai
@@ -9,6 +9,7 @@ public class KelolaPerusahaan {
     static  String np , ap  , npp  ,  pemilik , namaPegawai , p;
     static  double gajii;
     static int golongan;
+    Pegawai_Gaji [] terbesar;
     /*
     membuat method main
      */
@@ -66,6 +67,7 @@ public class KelolaPerusahaan {
             pg1[i].hitungGajiTotal();
             pg1[i].setNamaPerusahaan(np);
             p1[i].setAp(ap);
+
         }
     /*
     method for untuk menampilkan pegawai yang ada      */
@@ -84,7 +86,7 @@ public class KelolaPerusahaan {
         int sum = 0;
         int total = 0;
 
-        for (Pegawai_Gaji pegawaiGaji:pg1) {
+        /*for (Pegawai_Gaji pegawaiGaji:pg1) {
             if(pegawaiGaji.getGajiPokok() > terbesar.getGajiPokok()){
                 System.out.println("Nama Pegawai dengan gaji Terbesar adalah " + pegawaiGaji.getNamaPegawai());
             }

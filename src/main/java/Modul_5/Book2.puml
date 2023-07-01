@@ -1,0 +1,50 @@
+@startuml
+'https://plantuml.com/class-diagram
+class Book2{
+~ AuthorName , BookCode , Tittle,nik ,alamat : String
+~ PubDate : int
+~ getAuthorName():String
+~ getBookCode():String
+~setBookCode(bookCode : String): void
+~getPubDate():int
+~getPubName():String
+~setPubName(pubname : String):void
+~setPubDate(pubDate : int):void
+~getTittle():String
+~setTittle(tittle : String): void
+~setDaftar(pengarang :[]):void
+~Book2 getDaftar():[]
+~setNama(nama : String) : void
+~getNik():String
+~setNik(nik : String):void
+~setAlamat(alamat : String): void
+~getAlamat():String
++{static}jumlahBuku(tahun : int , Book2 b1 : []) : int
++{static} Book2 bukuTerbaru(Book2 b1 : []):[]
++{static} Book2 bukuTerlama(Book2 b1 : []) : []
+}
+
+
+
+class KelolaBook2{
+~{static}jumlah , PubDate,jumlahP,UserI : int
+~{static}AuthorName , BookCode,Tittle,nik,Alamat : String
+<<constructor>>Book2(jumlahP : [] )
++{static}main(String[] args):void
+
+}
+KelolaBook2 *--Book2
+KelolaBook2 *--Pengarang
+
+class Pengarang{
+~nama , nim , alamat : String
+Pengarang(nama  : String , nik  : String , alamat : String)
+~getNik():String
+~setNik(nik : String) : void
+~getNama():String
+~setNama(nik : String):void
+~setAlamat(alamat : String):void
+~getAlamat():String
+}
+
+@enduml

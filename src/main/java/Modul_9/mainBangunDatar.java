@@ -2,21 +2,20 @@ package Modul_9;
 import java.util.Scanner;
 import static Modul_7.MainKaryawan.divide;
 
-
 public class mainBangunDatar {
-    private static final int WIDTH = 70;
+    private static final int WIDTH = 100;
     public static void pembagi() {System.out.println("-".repeat(WIDTH));}
 
     public static void choice() {
         System.out.println("1.SEGITIGA");
         System.out.println("2.LINGKARAN");
         System.out.println("3.SEGIEMPAT");
-        }
+    }
 
     public static void main(String[] args) {
         Scanner robot = new Scanner(System.in);
         double jari2;
-        int a, panjang , sisiB, sisiC, sisiA, lebar;
+        int a, sisi, sisiB, sisiC, sisiA;
         System.out.println("Jumlah Bangun datar : ");
         int n = robot.nextInt();
 
@@ -62,25 +61,22 @@ public class mainBangunDatar {
                     }
                 }
 
+                /*
+                asumsi segi empat disini persegi
+                 */
                 else if (a == 3) {
                     System.out.print("Sisi 1  : ");
-                    panjang = robot.nextInt();
-
-                    System.out.print("Sisi 2  : ");
-                    lebar = robot.nextInt();
-
+                    sisi= robot.nextInt();
                     bangundatars[i] = new SegiEmpat();
                     if (bangundatars[i] instanceof SegiEmpat) {
                         SegiEmpat segiEmpat;
                         segiEmpat = (SegiEmpat) bangundatars[i];
-                        segiEmpat.setPanjang(panjang);
-                        segiEmpat.setLebar(lebar);
+                        segiEmpat.setPanjang(sisi);
                     }
                 }
                 else {
                     System.out.println("gobles atuh salah");
                 }
-
             } while (a < 1 || a > 3);
         }
 

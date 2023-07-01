@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+class Segitiga{
++x1,x2,x3,y1,y2,y3:double
+<<constructor>>Segitiga_Biasa(double)
++hitungSisi(double):double
++hitungKeliing():double
++hitungLuas():double
+}
+
+
+@enduml

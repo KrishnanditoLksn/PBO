@@ -1,14 +1,10 @@
 package Modul_9;
 
 public class SegiEmpat extends  bangundatar {
-    private int panjang , lebar ;
-    int kelSegi;
+     int panjang;
+     int kelSegi;
 
     SegiEmpat(){}
-
-    public void setLebar(int lebar) {
-        this.lebar = lebar;
-    }
 
     public void setPanjang(int panjang){
         this.panjang = panjang;
@@ -18,23 +14,19 @@ public class SegiEmpat extends  bangundatar {
         return panjang;
     }
 
-    public int getLebar(){
-        return  lebar;
-    }
-
     @Override
-    double hitungKeliling() {
-        kelSegi = getPanjang() * getLebar();
+    public double hitungKeliling() {
+        kelSegi = 4 * getPanjang();
         return  kelSegi;
     }
 
     @Override
-    String nama() {
+    public String nama() {
         return "Segiempat";
     }
 
     @Override
-    double hitungLuas() {
-        return  getPanjang() * getLebar();
+    public double hitungLuas() {
+        return  getPanjang() * getPanjang();
     }
 }

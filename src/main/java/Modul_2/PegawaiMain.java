@@ -2,8 +2,8 @@ package Modul_2;
 
 import java.util.Scanner;
 public class PegawaiMain {
-    static int Status ,Golongan, choice;
-    static String npegawai,npp;
+    static int Status ,Golongan, choice,npp;
+    static String npegawai;
     public static void main(String[] args) {
         Scanner robot = new Scanner(System.in);
 
@@ -35,7 +35,7 @@ public class PegawaiMain {
                 case (2) -> {
                     System.out.println("Memasukkan npp pegawai ");
                     System.out.println("NPP : ");
-                    npp = robot.next();
+                    npp = robot.nextInt();
                     g1.setNik(npp);
                 }
                 case (3) -> {
@@ -69,4 +69,4 @@ public class PegawaiMain {
             }
         }while (choice <= 7);
     }
-        }
+}

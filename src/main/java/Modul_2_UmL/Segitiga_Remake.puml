@@ -1,0 +1,44 @@
+@startuml
+'https://plantuml.com/class-diagram
+class Segitiga_Remake{
++x1,x2,x3,y1,y2,y3:double
+<<constructor>>Segitiga_Remake (double)
++setX1(x1 : double) :void
++setX2(x2 : double) :void
++setX3(x3 : double) :void
++setY1(y1 :double) :void
++setY2(y2 :double) :void
++setY3(y3 : double):void
++getX1():double
++getX2():double
++getX3():double
++getY1():double
++getY2():double
++getY3():double
++hitungSisi(double):double
++hitungKeliing():double
++hitungLuas():double
+}
+
+class KumpulanSegitiga{
++void setDaftarS(Segitiga_Remake list : []) : void
++KumpulanSegitiga(KumpulanSegitiga jumlahS : [] , Segitiga_Remake  list : [])
++setJumlahS(KumpulanSegitiga jumlahS : [])
++{static}Hitung Sisi (xa : double , yb : double , xb : double , yb : double) : double
++{static}hitungKeliing(Sisi : double)
++{static}HitungLuas() : double
++{static}rataS():double
++{static}segitigaBesar():double
++{static}segitigaKecil():double
+}
+
+class MainSegitigaMRemake {
+~{static}jS :int
+~{static}x1, y1 , x2 , y2 , x3,  y3 : double
++{static}main[]:void
+}
+
+MainSegitigaMRemake *--KumpulanSegitiga
+MainSegitigaMRemake *--Segitiga_Remake
+
+@enduml

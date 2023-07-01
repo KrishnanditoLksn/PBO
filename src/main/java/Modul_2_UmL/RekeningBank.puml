@@ -1,0 +1,11 @@
+@startuml
+class RekeningBank{
+-saldo:int
+-nomorRek:String
+<<constructor>>RekeningBank(String)
++RekeningBank(nomor:String)
++cekSaldo(): int
++tabung(jumlah:int):void
++ambil(jumlah:int):void
+}
+@enduml

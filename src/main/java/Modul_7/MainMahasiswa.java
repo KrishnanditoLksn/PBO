@@ -1,7 +1,7 @@
 package Modul_7;
 /*
 mengimport dari modul 4
- */
+
 import Modul_4.Mhs;
 import java.util.Objects;
 import java.util.Scanner;
@@ -9,49 +9,49 @@ import java.util.Scanner;
 /*
 membuat kelas bernama MainMahasiswa
  */
-public class MainMahasiswa {
+//public class MainMahasiswa {
     /*
     variabel width untuk  jumlah n sama dengan
-     */
+
     public static final int width = 70;
 
     /*
     membuat method untuk samadengan dan keyword repeat untuk mencetak = sebanyak n
-     */
+
     public static void samaDengan() {
         System.out.println("=".repeat(width));
     }
 
     /*
     membuat method main untuk memanggil method yang ada di kelas mahasiswa s1 maupun s2
-     */
+
     public static void main(String[] args) {
         /*
         membuat variabel pilih bertipe int
          */
-        int pilih;
         /*
         membuat variabel untuk menyimpan nilai uts1,uts2 , uas
          */
-        double uts1,uts2,uas;
+
         /*
         membuat variabel untuk menyimpan nama , tanggal_lahir,nim
          */
-        String nama , tanggal_lahir, nim;
+
 
         /*
         membuat scannr robot
          */
-        Scanner robot = new Scanner(System.in);
+
         /*
         method untuk samadengan
-         */
+
         samaDengan();
         System.out.println("Jumlah Mahasiswa ");
         samaDengan();
 
         int jumlahMahasiswa = robot.nextInt();
         Mhs[] mhs = new Mhs[jumlahMahasiswa];
+        Mhs[] data = new Mhs[5];
 
         for (int i = 0; i < jumlahMahasiswa; i++)
             do {
@@ -106,7 +106,7 @@ public class MainMahasiswa {
             } while (pilih > 2 || pilih <= 0);
         /*
         menampilkan  nilai huruf
-         */
+
 
         for (Mhs mhs1 : mhs) {
             if (mhs1 instanceof Mhs_S1) {
@@ -136,4 +136,4 @@ public class MainMahasiswa {
             }
         }
     }
-}
+}*/

@@ -33,4 +33,3 @@ public abstract class Pegawai implements Email {
     abstract double getTunjangan();
     abstract  double hitungGatot();
 }
-

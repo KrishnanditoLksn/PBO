@@ -3,10 +3,10 @@ package Modul_2;
 import java.util.Scanner;
 
 public class Gaji_Pegawai {
-    String namaP , nik;
-    int  Status ,jAnak, Golongan,tunjanganKeluarga;
-    double gajipokok,gajiTotal;
-    Gaji_Pegawai(String namaP , String nik, int status ,int Golongan){
+    private String namaP ;
+    private int  Status ,nik,jAnak, Golongan,tunjanganKeluarga;
+    private double gajipokok,gajiTotal;
+    public Gaji_Pegawai(String namaP , int nik, int status , int Golongan){
         this.namaP = namaP;
         this.nik = nik;
         this.Status = status;
@@ -33,11 +33,11 @@ public class Gaji_Pegawai {
         return  jAnak;
     }
 
-    public void setNik(String nik){
+    public void setNik(int nik){
         this.nik = nik;
     }
 
-    public String getNik(){
+    public int getNik(){
         return  nik;
     }
 
@@ -49,7 +49,7 @@ public class Gaji_Pegawai {
         this.Golongan = golongan;
     }
 
-    public void hitungGajiPokok(){
+    public double hitungGajiPokok(){
         if(getGolongan() ==1){
             gajipokok = 1300000;
             System.out.println("Gaji Anda sebesar : " +  gajipokok);
@@ -64,6 +64,7 @@ public class Gaji_Pegawai {
         else {
             System.out.println("Invalid");
         }
+        return gajipokok;
     }
 
     public void StatusComparison(){
@@ -89,12 +90,16 @@ public class Gaji_Pegawai {
         }
     }
 
-    public  void gajiTotal(){
+    public void gajiTotal(){
         gajiTotal = gajipokok + tunjanganKeluarga;
         System.out.println(gajiTotal);
     }
 
-    public void Display(){
-        System.out.println(getNamaP()  + " - " + getNik());
+    public double getGajiTotal(){
+        return  gajiTotal;
+    }
+
+    public  double getGajipokok(){
+        return  gajipokok;
     }
 }

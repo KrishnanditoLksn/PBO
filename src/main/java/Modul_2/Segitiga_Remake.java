@@ -1,7 +1,15 @@
 package Modul_2;//membuat program di dalam  package Modul_2
 
 public class Segitiga_Remake {//mendeklarasikan class Segitiga_Remake
-    public double x1,y1,x2,y2,x3,y3;//memberi nama variabel dan untuk atribut
+    private double x1,y1,x2,y2,x3,y3;//memberi nama variabel dan untuk atribut
+
+    public Segitiga_Remake(double x1, double y1, double x2, double y2, double x3, double y3){
+        this.x1 = x1;
+        this.y1 = y1;
+        this.x2 = x2;
+        this.x3 = x3;
+        this.y3 = y3;
+    }
 
 
     public void setX1(int x1){//menambah metode set untuk nilai x1 segitiga bertipe void
@@ -48,6 +56,9 @@ public class Segitiga_Remake {//mendeklarasikan class Segitiga_Remake
         this.y3 = y3;
     }
 
+    public double getY3() {
+        return y3;
+    }
 
     public double hitungSisi(double xa, double ya, double xb, double yb){//metode untuk menghitung sisi segitiga
         return Math.sqrt( Math.pow(xa-xb, 2) + Math.pow(ya-yb,2));

@@ -1,0 +1,26 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class  Hewan{
+~suara()
+}
+
+class Bebek{
+
+~suara()
+}
+class Anjing{
+~suara()
+}
+class Kucing{
+~suara()
+}
+class Harimau{
+~suara()
+}
+
+Hewan <|--Anjing
+Hewan <|--Kucing
+Hewan <|--Harimau
+Hewan <|--Bebek
+@enduml

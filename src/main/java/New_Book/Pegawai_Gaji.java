@@ -1,4 +1,4 @@
-package Modul_2;
+package New_Book;
 
 import java.util.Scanner;
 public class Pegawai_Gaji {

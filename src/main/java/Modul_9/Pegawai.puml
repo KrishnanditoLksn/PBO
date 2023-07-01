@@ -1,0 +1,55 @@
+@startuml
+'https://plantuml.com/class-diagram
+interface Email{
+~getEmail():String
+}
+
+
+abstract class Pegawai{
+-npp : int
+-nama : String
+-gajiPokok  : double
+
++setNpp(nampeg:String):void
++setNama(upah:double):void
++setGajiPokok():void
++getNpp():int
++getNama():String
++getGapok():double
++getStatus():String
++getTunjangan():double
++hitungGatot():double
+}
+class Manajer{
+-tunJabatan:double
+-lemburan : double
++setTunJabatan():void
++setLemburan():void
++getTunJabatan():double
++getStatus():String
++getTunjangan():double
++hitungGatot():double
+}
+class Honorer{
+-lemburan : double
++setLemburan():void
++getLemburan():double
++getStatus():String
++getTunjangan():double
++hitungGatot():double
+}
+
+class Pemasaran{
+-bonus : double
++setBonus():void
++getStatus():String
++getTunjangan():double
++hitungGatot():double
+}
+Pegawai -[dashed]>Email
+Pegawai <|--Pemasaran
+Pegawai <|--Honorer
+Pegawai<|--Manajer
+
+
+@enduml

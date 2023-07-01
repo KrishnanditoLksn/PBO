@@ -1,0 +1,47 @@
+@startuml
+
+class KelolaPerusahaan{
+~{static}status , ja : int
+~{static} np,ap,npp , pemilik, namaPegawai,p : String
+~{static} gajii: double
+~{static} golongan : int
+<<constructor>>Gaji_Pegawai(gjp: [])
++{static}main(String[] args):void
+}
+
+class Perusahaan2{
+~ CompanyP , CompanyC , bos , namaP, Np : String
+~ Pegawai_Gaji : []
+~Status , Golongan , nik , Golo , Npp , Jm : int
+
++setG2(Gaji_Pegawai p1 : []) : void
++ Gaji_Pegawai getG2 : []
++ getBos():String
++setBos(Bos : String):void
++getCompanyC():String
++getCompanyP():String
++setCompanyP(companyP : String): void
++rata-ratadah(Gaji_Pegawai g2 : [] , n : int) : int
+Gaji_Pegawai maks():g2 [index]
++AddPegawai():void
+}
+
+class Gaji_Pegawai{
++setNpp(npp : String):void
++getNpp():String
++setGolongan() :void
++getGolongan():int
++setStatus():int
++getStatus():int
++setJumlahAnak(jumlah anak : int):void
++getJumlahAnak():int
++hitungGajiPokok():void
++hitungTunjanganKeluarga():void
++getGajiPokok():double
++hitungGajiTotal():void
++setNamaPegawai(namaPegawai : String):void
++getNamaPegawai():String
+}
+KelolaPerusahaan *--Gaji_Pegawai
+KelolaPerusahaan *--Perusahaan2
+@enduml

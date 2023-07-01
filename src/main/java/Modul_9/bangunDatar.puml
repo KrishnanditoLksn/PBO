@@ -1,0 +1,43 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Lingkaran{
++getJariJari():double
++setJariJari(jariJari : double):void
+~hitungKeliling():double
+~nama():String
+~hitungLuas():double
+}
+abstract class bangundatar{
+hitungKeliling : double
+nama : String
+hitungLuas : double
+~hitungKeliling():double
+~nama():String
+~hitungLuas():double
+}
+class SegiEmpat{
+~panjang : int
+~kelSegi:int
++setPanjang(panjang : int):void
++getPanjang(): int
+~hitungKeliling():double
+~nama():String
+~hitungLuas():double
+}
+class Segitiga{
+~kel , a ,b , c : double
++getC():double
++setC(c : double) : void
++getB():double
++setB(b : double):void
++getA():double
++setA(a : double):void
+~hitungKeliling():double
+~nama():String
+~hitungLuas():double
+}
+bangundatar <|-- SegiEmpat
+bangundatar<|-- Segitiga
+bangundatar<|-- Lingkaran
+@enduml

@@ -2,7 +2,9 @@ package Modul_9;
 
 public class Segitiga extends  bangundatar{
     double kel , a , b , c ;
-
+/*
+Method getSet
+ */
     public double getC() {
         return c;
     }
@@ -29,6 +31,9 @@ public class Segitiga extends  bangundatar{
     Segitiga(){}
 
 
+    /*
+    menggunakan method keliling  dan hitungLuas
+     */
     @Override
     double hitungKeliling() {
         kel = getA() + getB() + getC();
